@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Ciclo que repite pasos hasta cumplir la condición">
+  <circle cx="100" cy="60" r="32" fill="none" stroke="#e6ebfa" stroke-width="3" stroke-dasharray="4 8" stroke-linecap="round"/>
+  <path d="M100 28a32 32 0 0 1 27.7 16" fill="none" stroke="#4968e8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M132 46l-2-13 13 7z" fill="#4968e8"/>
+  <circle cx="100" cy="60" r="10" fill="#edf1ff" stroke="#304bc0" stroke-width="2.5"/>
+  <circle cx="100" cy="60" r="3.5" fill="#304bc0"/>
+  <circle cx="68" cy="60" r="4" fill="#c9d4f5"/>
+  <circle cx="132" cy="60" r="4" fill="#c9d4f5"/>
+  <circle cx="100" cy="92" r="4" fill="#c9d4f5"/>
+</svg>

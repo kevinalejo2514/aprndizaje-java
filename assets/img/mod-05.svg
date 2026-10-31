@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Entrada que pasa por un método y devuelve un resultado">
+  <rect x="20" y="44" width="34" height="34" rx="9" fill="#edf1ff"/>
+  <path d="M54 61h16" stroke="#4968e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M74 61l-8-5v10z" fill="#4968e8"/>
+  <rect x="78" y="32" width="44" height="58" rx="13" fill="#ffffff" stroke="#4968e8" stroke-width="2.5"/>
+  <path d="M88 48h24M88 60h18M88 72h12" stroke="#c9d4f5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M122 61h16" stroke="#168568" stroke-width="3" stroke-linecap="round"/>
+  <path d="M142 61l-8-5v10z" fill="#168568"/>
+  <circle cx="162" cy="61" r="15" fill="#dff7ed"/>
+  <path d="M155 61l5 6 9-12" fill="none" stroke="#168568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

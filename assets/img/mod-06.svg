@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Colección de valores organizados en celdas">
+  <rect x="26" y="24" width="36" height="28" rx="7" fill="#edf1ff" stroke="#c9d4f5" stroke-width="2"/>
+  <rect x="66" y="24" width="36" height="28" rx="7" fill="#edf1ff" stroke="#c9d4f5" stroke-width="2"/>
+  <rect x="106" y="24" width="36" height="28" rx="7" fill="#4968e8"/>
+  <rect x="146" y="24" width="28" height="28" rx="7" fill="#edf1ff" stroke="#c9d4f5" stroke-width="2"/>
+  <rect x="26" y="60" width="36" height="28" rx="7" fill="#edf1ff" stroke="#c9d4f5" stroke-width="2"/>
+  <rect x="66" y="60" width="36" height="28" rx="7" fill="#8566dc"/>
+  <rect x="106" y="60" width="36" height="28" rx="7" fill="#edf1ff" stroke="#c9d4f5" stroke-width="2"/>
+  <rect x="146" y="60" width="28" height="28" rx="7" fill="#dff7ed"/>
+  <path d="M26 100h148" stroke="#e6ebfa" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="description" content="Java Lab: ruta interactiva para aprender Java desde cero con lecciones completas, práctica guiada, evaluación y progreso verificable.">
+  <title>Java desde cero — Tu laboratorio de aprendizaje</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./assets/vendor/three.min.js" defer></script>
+  <script src="./js/hero3d.js" defer></script>
+  <script src="./content/module-01.js" defer></script>
+  <script src="./content/curriculum.js" defer></script>
+  <script src="./js/progress.js" defer></script>
+  <script src="./js/checkers.js" defer></script>
+  <script src="./js/renderer.js" defer></script>
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#/ruta" aria-label="Inicio de Java Lab">
+        <span class="brand-mark">J</span>
+        <span>
+          <strong>Java Lab</strong>
+          <small>Tu ruta de aprendizaje</small>
+        </span>
+      </a>
+
+      <div class="sidebar-label">TU PROGRESO</div>
+      <div class="progress-card">
+        <div class="progress-heading">
+          <span>Ruta Java</span>
+          <strong id="progress-percent">0%</strong>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <small id="progress-detail">Cargando tu progreso…</small>
+      </div>
+
+      <div class="sidebar-label">PLAN DE ESTUDIO</div>
+      <nav id="module-nav" class="module-nav" aria-label="Módulos de aprendizaje"></nav>
+
+      <div class="sidebar-footer">
+        <button id="reset-progress" class="button-ghost" type="button">Reiniciar progreso</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumb" id="breadcrumb">Ruta <span>/</span> Java desde cero</div>
+        <div class="level-chip"><span></span> Nivel principiante</div>
+      </header>
+
+      <div id="notice-root" aria-live="polite"></div>
+
+      <section id="overview-view">
+        <section class="welcome-row">
+          <div class="hero-photo" aria-hidden="true">
+            <img src="./assets/img/hero-circuit.jpg" alt="" loading="lazy">
+          </div>
+          <div>
+            <p class="eyebrow">LABORATORIO DE APRENDIZAJE JAVA</p>
+            <h1>Domina Java desde cero.<br><span>Con fundamentos sólidos y práctica verificable.</span></h1>
+            <p class="welcome-copy">
+              Ocho módulos progresivos, lecciones con trazas de ejecución paso a paso, práctica guiada
+              con pistas y ejercicios con criterios de verificación. Cada concepto se explica, se
+              prueba y se valida antes de avanzar.
+            </p>
+          </div>
+          <div class="hero-decoration" aria-hidden="true">
+            <div class="hero-orbit orbit-one"></div>
+            <div class="hero-orbit orbit-two"></div>
+            <div class="hero-symbol">J<span>;</span></div>
+            <span class="hero-tag tag-top">POO</span>
+            <span class="hero-tag tag-bottom">JAVA</span>
+          </div>
+        </section>
+
+        <section class="roadmap">
+          <div class="roadmap-head">
+            <div>
+              <p class="eyebrow">RUTA COMPLETA</p>
+              <h2>Ocho módulos, de la consola al backend</h2>
+            </div>
+            <p class="roadmap-note">
+              Los módulos se desbloquean con un 80% de dominio del anterior.
+              Un módulo en «preparación» no tiene lecciones publicadas todavía.
+            </p>
+          </div>
+          <div id="roadmap" class="roadmap-grid"></div>
+        </section>
+      </section>
+
+      <section id="lesson-view" hidden></section>
+
+      <footer class="page-footer">
+        <span>JAVA LAB <span class="footer-dot">·</span> APRENDE CON FUNDAMENTOS</span>
+        <span>Progreso guardado en este navegador (localStorage). No hay servidor.</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

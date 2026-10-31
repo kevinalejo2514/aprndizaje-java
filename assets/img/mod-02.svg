@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Tres variables con su tipo y su valor">
+  <rect x="34" y="20" width="132" height="24" rx="12" fill="#edf1ff"/>
+  <circle cx="52" cy="32" r="5" fill="#4968e8"/>
+  <rect x="66" y="28" width="46" height="8" rx="4" fill="#c9d4f5"/>
+  <rect x="34" y="52" width="132" height="24" rx="12" fill="#eef9f4"/>
+  <circle cx="52" cy="64" r="5" fill="#168568"/>
+  <rect x="66" y="60" width="62" height="8" rx="4" fill="#b9e6d6"/>
+  <rect x="34" y="84" width="132" height="24" rx="12" fill="#f2effc"/>
+  <circle cx="52" cy="96" r="5" fill="#8566dc"/>
+  <rect x="66" y="92" width="38" height="8" rx="4" fill="#d5cbf3"/>
+</svg>

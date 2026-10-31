@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Traza de ejecución">
+  <rect x="4.5" y="6" width="23" height="20" rx="5" fill="#edf1ff" stroke="#4968e8" stroke-width="2.2"/>
+  <path d="M12.5 11.5l7 4.5-7 4.5z" fill="#304bc0"/>
+  <path d="M9 23h14" stroke="#c9d4f5" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
